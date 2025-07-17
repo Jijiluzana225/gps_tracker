@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #0d6efd;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.4rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.status-box {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 600px;
+    margin: auto;
+  }
+}
